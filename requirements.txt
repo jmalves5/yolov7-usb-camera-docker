@@ -1,2 +1,4 @@
-imageai
+matplotlib
+seaborn
+thop
 Pillow
