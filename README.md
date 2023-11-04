@@ -2,7 +2,7 @@ YOLOv7 from USB Camera in Docker
 ======================
 - Connect usb camera
 - Install docker
-- Install nvidia-docker2
+- Install `sudo apt-get install nvidia-docker2`
 - Run: 
 ```
     xhost +local:docker  # Use at your own risk, this allows X server access to Docker
