@@ -1,5 +1,5 @@
 # Pytorch Base Image
-FROM pytorch/pytorch:1.12.1-cuda11.3-cudnn8-devel
+FROM rocm/pytorch:rocm5.7_ubuntu20.04_py3.9_pytorch_1.12.1
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -yq build-essential dumb-init pkg-config curl python3-pip python3-opencv wget git zip htop screen libgl1-mesa-glx libboost-all-dev libgtk2.0-dev
